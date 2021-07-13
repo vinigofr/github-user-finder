@@ -1,0 +1,42 @@
+.repos-title {
+  display: flex;
+  margin-top: 0;
+  padding: 25px;
+  justify-content: center;
+  color: red;
+  background-color: black;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
+  align-items: center;
+  width: 350px;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset 0 0 1em rgb(0, 0, 0), 0 0 1em rgb(255, 0, 0);
+}
+
+.repo-link {
+  display: flex;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.repo-link:hover {
+  color: white;
+}
+
+.repos-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
