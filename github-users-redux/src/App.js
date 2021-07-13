@@ -11,7 +11,7 @@ export default class App extends Component {
         <BrowserRouter basename="/github-user-finder">
           <Switch>
             <Route exact path="/" component={ Home } />
-            <Route exact path="/user/:user" component={ Users } />
+            <Route exact path="/user/:user" basename="/user/:user" component={ Users } />
           </Switch>
         </BrowserRouter>
       </div>
